@@ -1,0 +1,25 @@
+- Faça o diagrama entidade-relacionamento de um banco de dados que armazena os dados necessários para o sistema descrito abaixo. A base de dados não deve conter redundância de dados.
+- O diagrama pode ser feito à mão, na ferramenta brModelo  : http://www.sis4.com/brModelo/download.html
+ou no site https://erdplus.com
+- Envie o arquivo com o diagrama ER ( imagem ou pdf)
+- Dúvidas : por e-mail ou no plantão online do dia 18/10 as 21:00.
+
+  
+Uma empresa jornalística deseja construir uma base de dados para armazenar resultados passados de copas do mundo de futebol, para acesso por seus repórteres.
+A base de dados armazena informações sobre países que participaram ou sediaram copas do mundo. Cada país é identificado por uma sigla de duas letras e
+possui um nome. Uma copa é identificada pelo ano em que ocorreu e a base de
+dados armazena as datas de início e fim da copa, bem como o nome da cidade em
+que ocorreu a cerimônia de abertura.
+Para cada copa, cada país monta uma equipe diferente de jogadores. Cada
+equipe tem um treinador e vários jogadores. Tanto treinadores, quanto jogadores estão armazenados em uma base de dados de pessoas, cada uma identificada
+por um código. Para as pessoas, a base de dados mantém, além do código, seu
+nome, data de nascimento e país de nascimento. Observar que uma pessoa pode
+participar de diferentes copas e com diferentes papéis (treinador e jogador).
+Finalmente, deseja-se armazenar os jogos ocorridos em cada copa. Os jogos
+são numerados de um em diante dentro de cada copa. Para cada jogo deve-se
+saber o nome do estádio em que ocorreu, a data e hora do jogo, as equipes que
+dele participaram, bem como o número de gols de cada equipe.
+Construir um modelo ER que modele esta base de dados sem redundâncias.
+O modelo deve refletir fielmente esta realidade, contendo exatamente as propriedades descritas. Deve ser usada a notação do livro do Prof. Heuser (usada em aula), sendo que
+atributos podem ser anotados dentro dos retângulos representativos de entidades.
+O modelo deve conter : entidades, relacionamentos com cardinalidade , atributos e especialização se necessário.

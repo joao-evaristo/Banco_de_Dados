@@ -1,0 +1,7 @@
+DEPTO (CodDepto, NomeDepto)
+DISCIPLINA (#CodDepto, NumDisc, NomeDisc, CreditosDisc)
+PREREQ(#CodDepto, #NumDisc, #CodDeptoPreReq, #NumDiscPreReq)
+TURMA (AnoSem, #CodDepto, #NumDisc, SiglaTur, CapacTur)
+PROFESSOR(CodProf, NomeProf, #CodTit, #CodDepto)
+PROFTURMA(#AnoSem, #CodDepto, #NumDisc, #SiglaTur, #CodProf)
+TITULACAO(CodTit, NomeTit)
